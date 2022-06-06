@@ -21,13 +21,14 @@ const sorter = (names,cbSort)=>{
 // TODO: Fungsi untuk mengurutkan array of string secara ascending
 // mengembalikan array yang sudah diurutkan
 const sortAscending = (names) => {
-  return names.sort(function(a, b){return a-b});
+  return names.sort();
 }
 
 // TODO: Fungsi untuk mengurutkan array of string secara descending
 // mengembalikan array yang sudah diurutkan
 const sortDescending = (names) =>{
-  return names.sort(function(a, b){return b-a});
+   names.sort();
+   return names.reverse();
 }
 
 // ! JANGAN DIMODIFIKASI
